@@ -6,6 +6,6 @@ type BodyPropsType = {
 
 export const Body = (props:BodyPropsType) => {
     return (
-        <div>{props.titleForBody}</div>
+        <div style={{marginLeft:'40px'}}>{props.titleForBody}</div>
     )
 }

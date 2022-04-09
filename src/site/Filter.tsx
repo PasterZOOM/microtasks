@@ -26,7 +26,7 @@ export const Filter = (props: FilterPropsType) => {
                     )
                 })}
             </ul>
-            <div>
+            <div style={{marginLeft:'40px'}}>
                 <FilterButton name={'All'} callBack={() => props.callBack('All')}/>
                 <FilterButton name={'Dollars'} callBack={() => props.callBack('Dollars')}/>
                 <FilterButton name={'RUBLS'} callBack={() => props.callBack('RUBLS')}/>

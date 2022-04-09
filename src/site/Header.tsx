@@ -6,6 +6,6 @@ type HeaderPropsType = {
 
 export const Header = (props: HeaderPropsType) => {
     return (
-        <div>{props.titleForHeader}</div>
+        <div style={{marginLeft:'40px'}}>{props.titleForHeader}</div>
     )
 }

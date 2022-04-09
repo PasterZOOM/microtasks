@@ -11,11 +11,11 @@ type InArrayPropsType = {
 
 export const CarTable = (props: TopCarPropsType) => {
     return (
-        <table>
+        <table style={{marginLeft:'40px'}}>
             <tbody>
             {props.carName.map((element: InArrayPropsType, index) => {
                 return (
-                    <tr key={index}>
+                    <tr key={++index}>
                         <td>{index}</td>
                         <td>{element.manufacturer}</td>
                         <td>{element.model}</td>

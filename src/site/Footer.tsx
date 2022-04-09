@@ -6,6 +6,6 @@ type FooterPropsType = {
 
 export const Footer =(props:FooterPropsType)=>{
     return(
-        <div>{props.titleForFooter}</div>
+        <div style={{marginLeft:'40px'}}>{props.titleForFooter}</div>
     )
 }
